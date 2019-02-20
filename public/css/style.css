@@ -1,0 +1,820 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+#middleLogo{
+    
+}
+
+.changement{
+    padding-top: 15px;
+}
+
+#signInContainer{
+    position: fixed;
+    right: 25%;
+    left: 25%;
+    z-index: 1;
+    background-color: #8C8C8C;
+    display: none;
+    border: solid 1px #8C8C8C;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.submit{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 16px;    
+}
+
+#submit1{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 16px;    
+}
+
+#submit1:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.input1, .input2, .input3, .input4{
+    background-color: white;
+}
+
+
+
+.submit:hover{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+
+#validation{
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #8C8C8C;
+    /* display: none; */
+    border: solid 1px #8C8C8C;
+    border-radius: 20px;
+    width: 50%;
+    opacity: 0.9;
+    display: none;
+}
+
+.monH5{
+justify-content: center;
+display: flex; 
+}
+
+
+#valider{
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+
+
+.close1{
+    text-decoration: none;
+    color: red;
+    float: right;
+}
+
+.close1:hover{
+    color: red;
+}
+
+.monH1{
+    display: flex;
+    justify-content: center;
+}
+
+.close{
+    text-decoration: none;
+    color: red;
+    margin: 10px;
+}
+
+.close:hover{
+    color: red;
+}
+
+#formulaire{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #8C8C8C;
+    display: none;
+    border: solid 1px #8C8C8C;
+    border-radius: 20px;
+    width: 50%
+
+}
+#lesbtn{
+    float: right;
+    margin-top: 20px;
+}
+#middleLogo{
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
+
+}
+
+#lesLI{
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    padding-bottom: 11px;
+}
+
+
+button:focus{
+outline-color: transparent;
+}
+
+#section1{
+    background-color:#F3F3F3
+}
+
+#header{
+    background-color: #FFFFFF
+}
+
+#sale-item{
+    background-color: #CA544E;
+    border-radius: 26px;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding: 19px 20px;
+    text-transform: uppercase;
+    border: 0px;
+    transition:  all 3s;
+}
+
+#sale-item:hover{
+    background-color: black;
+    transition: all 3s
+}
+
+#sale-item:hover  #right{
+    display: inherit;
+    transition: all 3s;
+}
+
+#right:hover{
+    display: initial;
+    transition: all 3s
+}
+#right{
+    display: none;
+    transition: all 3s;
+}
+
+#noir{
+
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    border: 0px;
+    background-color: black;
+}
+#blanc{
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    border: 0px;
+}
+
+.mouve{
+    float: right;
+
+}
+
+#connexion{
+    height: 45px;
+    float: right;
+    margin-left: 20px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;;
+    border-radius: 10px;
+}
+
+.pull{
+    height: 650px;
+    width: 100%;
+}
+
+.texte-pull{
+    margin-top: 180px
+}
+
+.shop{
+    font-size: 60px;
+    color: rgb(189, 88, 78);
+    font-family: "poppins";
+    font-weight: 300;
+}
+
+.emporium{
+    color: rgb(22, 22, 22);
+    font-weight: 700;
+    font-size: 70px;
+    font-family: "Poppins";    
+}
+
+.wonderful{
+    font-size: 20px;
+    color: rgb(144, 144, 144);
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+}
+
+#home{
+    color: rgb(144, 144, 144);
+
+}
+
+#lien1{
+    color: rgb(144, 144, 144);
+
+}
+
+#lien2{
+    color: rgb(144, 144, 144);
+
+}
+
+#lien3{
+    color: rgb(144, 144, 144);
+
+}
+
+#lien4{
+    color: rgb(144, 144, 144);
+
+}
+
+#lien5{
+    color: rgb(144, 144, 144);
+
+}
+
+
+#home:hover{
+    color: black;
+
+}
+
+#lien1:hover{
+    color: black;
+
+}
+
+#lien2:hover{
+    color: black;
+
+}
+
+#lien3:hover{
+    color: black;
+
+}
+
+#lien4:hover{
+    color: black;
+
+}
+
+#lien5:hover{
+    color: black;
+
+}
+
+.colonneshop{
+    padding-top: 200px;
+
+}
+
+#section2{
+    background-color: #FFFFFF;
+}
+
+.service{
+    height: 280px;
+    padding-top: 40px;
+    width: auto;
+    padding-bottom: 40px;
+    background-image: url(../images/services/service-1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: none;
+}
+.service1{
+    height: 280px;
+    padding-top: 40px;
+    width: auto;
+    padding-bottom: 40px;
+    background-image: url(../images/services/service-2.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: none;
+}
+
+.service2{
+    height: 280px;
+    padding-top: 40px;
+    width: auto;
+    padding-bottom: 40px;
+    background-image: url(../images/services/slider-3.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: none;
+}
+
+.servicee{
+    padding-top: 20%;
+    padding-left: 25%;
+
+}
+
+.LesHR{
+    width: 50%;
+    background-color: #FFFFFF;
+    height: 1px;
+}
+
+.recent{
+    display: flex;
+    justify-content: center;
+    font-family: unset;
+    font-size: 23px;
+}
+
+.product{
+    width: auto;
+    font-size: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: none;
+    transition: all 4s;
+}
+
+.product:hover{
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
+.boite {
+    position: relative;
+    overflow: hidden;
+}
+
+.boite:hover > .items {
+    bottom: 0px;
+}
+
+.items {
+    position: absolute;
+    bottom: -120px;
+    transition: all 1s;
+}
+
+.items > .col-6 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1.25em;
+}
+
+.vieuw {
+    background-color: black;
+}
+
+.add {
+    background-color: #CA544E;
+}
+
+.luxury{
+    display: flex;
+    color: #191919;
+    font-size: 17px;
+    font-family:unset;
+    justify-content: center;
+
+}
+
+.gloves{
+    display: flex;
+    color: #191919;
+    font-size: 17px;
+    font-family:unset;
+    justify-content: center;
+
+}
+
+.bowl{
+    display: flex;
+    color: #191919;
+    font-size: 17px;
+    font-family:unset;
+    justify-content: center;
+
+}
+
+.prix{
+    display: flex;
+    padding-top: 10px;
+    color: #bd584e;
+    font-size: 15px;
+    font-weight: 800;
+    padding-bottom: 10%
+
+}
+
+
+.bag{
+    display: flex;
+    color: #191919;
+    font-size: 17px;
+    font-family:unset;
+    justify-content: center;
+
+}
+
+.minimal{
+    display: flex;
+    color: #191919;
+    font-size: 17px;
+    font-family:unset;
+    justify-content: center;
+
+}
+
+
+.set{
+    display: flex;
+    color: #191919;
+    font-size: 17px;
+    font-family:unset;
+
+}
+
+.onsale{
+    min-height: 3.236em;
+    min-width: 3.236em;
+    padding: .202em;
+    font-size: 1em;
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    line-height: 3.236;
+    top: -.5em;
+    left: -.5em;
+    margin: 0;
+    border-radius: 100%;
+    background-color:#bd584e;
+    color: #fff;
+    font-size: .857em;
+    z-index: 9;
+    margin-top: 77%;
+}
+
+.set{
+    display: flex;
+    justify-content: center;
+}
+
+.set2{
+    display: flex;
+    color: #191919;
+    font-size: 17px;
+    font-family:unset;
+    justify-content: center;
+}
+
+.ligne3{
+    padding-bottom: 6%;
+}
+
+.prix{
+    justify-content:center;
+}
+#fond{
+    background: url(../images/cta-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20%;
+    background-attachment: fixed;
+}
+
+.discover{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+#learn-more{
+    background-color: #CA544E;
+    border-radius: 26px;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+     color: white;
+    justify-content: center;
+    padding: 15px 33px;
+}
+
+.bouton2{
+    justify-content: center;
+    display: flex;
+}
+
+
+.fashion{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #383838;
+    font-family: "Poppins", sans-serif;
+}
+
+.carou{
+    display: -webkit-inline-box;
+}
+
+.product2{
+    width: auto;
+    font-size: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: none;
+}
+
+
+.prix2{
+    display: flex;
+    padding-top: 10px;
+    color: #bd584e;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 40px;
+}
+
+.prix3{
+    display: flex;
+    padding-top: 10px;
+    color: #bd584e;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 85px;
+}
+
+.icone{
+    color: grey;
+    justify-content: center;
+    display: flex;
+}
+
+.icone2{
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+.trusted{
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin: 0;
+   
+}
+
+.fast{
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: white;
+
+}
+
+.trust{
+    background-color: #F3F2F3;
+    padding-top: 20px;
+    border: solid 7px white;
+}
+.fasted{
+    background-color: #CA544E;
+    padding-top: 20px;
+    border: solid 7px white;
+
+}
+
+
+.gris{
+    color: grey
+}
+.avion{
+    color: white;
+}
+
+.para{
+    padding: 20px 62px;
+    text-align: center;
+}
+
+.texte{
+    line-height: 1.7;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+.texte2{
+    line-height: 1.7;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+.more{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20%;
+}
+
+.more2{
+    padding: 15px 33px;
+    border: 0px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.pousser{
+    margin-left: 12%
+}
+
+.about{
+    line-height: 1.7;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.bordure{
+    border-right: solid 1px
+}
+
+.mesLI{
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding-left: 28px;
+    line-height: 20px;
+    padding-bottom: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.reduire{
+    margin-right: 40px;
+    list-style-image: url("../images/services/next.png")
+}
+
+.test{
+    font-size: 11px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    float: left;
+    padding: 7px 16px 8px;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-color: grey;
+    color: grey;
+}
+
+.works{
+    margin-right: 100px;
+}
+
+#fond2{
+    background-color: #262626;
+    color: gray;
+}
+
+#fond3{
+    background-color: #121212;
+}
+
+#good{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.logo{
+    height: 20px;
+}
+
+
+
+
+
+#liste-nav{
+    z-index: 1;
+    display: none;
+    position: absolute;
+    left: 33.5%;
+    color: #A9A9A9;
+    background-color: blue
+}
+
+.couleurFond{
+    background-color: #292929;
+    color: white;
+
+}
+
+#fashion .container {
+    overflow: hidden;
+}
+
+.slide .row {
+    flex-wrap: nowrap;
+    transition: all 1s;
+}
+
+#listProduct:hover>#liste-nav {
+    display: block;
+}
+
+li>a{
+    color: #7C7C7C;
+}
+
+li>a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+.fa-shopping-cart{
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.fa-eye{
+    margin-top: 4px;    
+    margin-right: 10px;
+}
