@@ -29,7 +29,7 @@ let maNav = document.getElementsByTagName("nav")[0];
 let chevron = document.getElementById("right");
 
 
-let page = document.getElementById("monBody");
+let page = document.getElementById("monbody");
 
 
 let affichageForm2 = () => {
@@ -235,18 +235,14 @@ let valider = document.getElementById('validation');
 
 let inscription = document.getElementById("inscrit");
 
-
-
-
-
+let affichageForm3 = () => {
+    valider.style.display = "block";
+    formulaire2.style.display = "none";
+}
+inscription.addEventListener("click", affichageForm3);
 
 let close1 = document.getElementsByClassName("close1")[0];
 
-
-let fermerform3 = () => {
-    valider.style.display = "none";
-}
-close1.addEventListener("click", fermerform3)
 
 
 let prevScrollpos = window.pageYOffset;
