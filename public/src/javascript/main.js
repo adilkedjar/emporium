@@ -235,11 +235,7 @@ let valider = document.getElementById('validation');
 
 let inscription = document.getElementById("inscrit");
 
-let affichageForm3 = () => {
-    valider.style.display = "block";
-    formulaire2.style.display = "none";
-}
-inscription.addEventListener("click", affichageForm3);
+
 
 
 
